@@ -1,0 +1,20 @@
+# Required:
+ollama
+fastapi~=0.115.5
+pydantic-settings
+uvicorn[standard]
+# psycopg2-binary # If necessary
+SQLAlchemy~=2.0.36
+
+# Optional:
+langchain-ollama
+# passlib[bcrypt] 
+# bcrypt
+python-jose
+pydantic~=2.10.2
+passlib~=1.7.4
+redis~=5.2.0
+requests~=2.32.3
+pytest~=8.3.3
+pydantic[email]
+python-multipart
